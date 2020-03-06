@@ -36,4 +36,19 @@ $(document).ready(function() {
       }
     });
   }
+
+  function renderButtons(){
+      $("#display-buttons").empty();
+
+      for (var j = 0; j< displayedButtons.length; j++){
+          var newButton = $("<button>")
+          newButton.attr("class", "btn btn-default");
+          newButton.attr("id", "input")
+          newButton.attr("data-name", displayedButtons[j]);
+          newButton.text(displayedButtons[j]);
+          $("#display-buttons").append(newButton);
+      }
+  }
+
+  
 });
