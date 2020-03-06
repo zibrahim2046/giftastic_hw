@@ -1,6 +1,28 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  background: url("../images/Akatsuki_Background.jpg");
+  background-size: cover contain;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.jumbotron {
+  background: none;
+}
+
+h5 {
+  color: white;
+}
+
+p {
+  color: white;
+}
