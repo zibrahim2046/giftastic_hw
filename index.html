@@ -4,36 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giftastic!!!</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Naruto Gifs</h1>
-         
-            <div class="row">
-                <div class="col-md-12" id="display-buttons"></div>
-            </div>
-        
-            <div class="row">
-                <div class="col-md-12">
-                    <form id="form">
-                        <label for="user-input">Enter a Naruto Related word or phrase!</label><br>
-                        <input type="text" id="user-input">
-                        <input id="submitPress" type="submit" value="Submit" class="btn btn-default">
-                    </form>
-                </div>
-            </div>
-          </p>
+ 
+<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Link to CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Naruto Gifs!</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" id="display-buttons"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <form id="form">
+                <label for="user-input"></label><br>
+                <input type="text" id="user-input">
+                <input id="submitPress" type="submit" value="Submit" class="btn btn-default">
+            </form>
         </div>
-      </div>
-      <script src="assets/javascript/app.js"></script>
-  </body>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" id="display-images"></div>
+    </div>
+
+</div>    
+<!-- Link to JS -->
+<script src="assets/javascript/app.js"></script>
+</body>
 </html>
